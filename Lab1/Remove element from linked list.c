@@ -1,5 +1,3 @@
-
-
 /* Function to remove elements from a linked list */
 struct ListNode* removeElements(struct ListNode* head, int val) {
     // Create a dummy node that points to head
@@ -20,6 +18,4 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
         }
     }
     
-    return dummy.next;  // Return new head (may be updated)
-}
-
+    return dummy.next;  // Return new head 
